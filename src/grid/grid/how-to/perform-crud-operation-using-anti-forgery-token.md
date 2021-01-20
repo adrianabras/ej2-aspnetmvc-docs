@@ -44,7 +44,7 @@ This custom adaptor will read the anti-forgery token from the hidden element and
                     __RequestVerificationToken: document.getElementsByName("__RequestVerificationToken")[0].value,
                     value: value,
                     table: tableName,
-                    action: 'insert'
+                    action: 'update'
                 }),
                 contentType: 'application/x-www-form-urlencoded; charset=UTF-8'
             };
